@@ -1,6 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-      printf("hii shivam sethi");
-      return 0;
+    int a, b, sum;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+    printf("Sum = %d", sum);
+    return 0;
 }
